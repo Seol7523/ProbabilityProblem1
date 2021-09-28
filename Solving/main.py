@@ -10,7 +10,7 @@ def DoTest(n,select,cost,profit):
 	"""
 	average = 0
 	for i in range(n):
-		average-=cost
+		average-=cost*select
 		select_list = random.sample(range(1,21),select)
 		answer = random.randint(1,20)
 		if answer in select_list:
@@ -48,3 +48,7 @@ main(1000,1,10)
 main(10,1,20)
 main(100,1,20)
 main(1000,1,20)
+
+main(10,1,30)
+main(100,1,30)
+main(1000,1,30)
