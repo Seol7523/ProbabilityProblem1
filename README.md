@@ -88,6 +88,6 @@ Profit : 숫자를 맞추었을때 받는 돈
 
 
 
-Research by S.C.H
+
 
 ~~*도박하지 맙시다*~~
